@@ -1,0 +1,15 @@
+void printLinkedList(SinglyLinkedListNode* head) 
+{
+if(head==NULL)
+{
+    printf("linked list is empty");
+}
+else
+{
+    while(head!=NULL)
+    {
+        printf("%d\n",head->data);
+        head=head->next;
+    }
+}
+}
